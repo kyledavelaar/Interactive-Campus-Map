@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Ketchum University Campus</title>
+		<link href="CSS/bootstrap.css" rel="stylesheet" type="text/css"> 
+		<link rel="stylesheet" href="CSS/styles.css">
+  </head>
+  
+
+	<body>
+
+
+<!--NAVBAR=================================================================================-->
+
+    <div class="header">
+			<a href="https://www.ketchum.edu">
+			  <img class="mbkuLogo img-responsive" src="Images2/SCCO-Horizontal_White.png" alt="">
+			</a>
+		</div>
+    <div>
+			<img class="kh2Long img-responsive" src="Images2/peerAdvisorLongColor.jpg" alt="">
+		</div>
+<!--
+		<ul class="topnav">
+			<li><a id="logo" class="active" href="#home">SCCO ADMISSIONS</a></li>
+			<li><a href="#news">News</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#about">About</a></li>
+			<li class="icon">
+				<a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+			</li>
+		</ul>
+		-->
+	
+
+<!-- MAIN BODY======================================================================-->
+
+	<div class="explainer">
+		<h4>Click on the gold icons to explore the campus.</h4>
+	</div>
+
+  <!-- COMMONS BUTTON-->			
+		<div class="row">
+			<div class="col-lg-0"></div>
+			<div class="col-lg-12 pin">
+				<!--wrapper set to relative so btn stays in place-->
+				<div class="container-fluid illustratedMap">
+					<img id="campusMap" class="center-block img img-responsive" src="Images2/campusMap3d-03.svg" alt="Campus Map">
+				</div>
+					<!-- Button trigger modal -->
+					<!--absolute position so moves with resize-->
+					<!--<button type="button" class="btn" data-toggle="modal" data-target="#myModal">my button</button>-->
+					<img id="commonsPointer" class="pointers pointer img-responsive img" src="Images2/Pointer.svg" title="Patricia Hopping Commons" type="button"
+					data-toggle="modal" data-target="#commonsModal"></img>
+					
+					<img id="libraryPointer" class="pointer img-responsive img" src="Images2/Pointer.svg" title="Building A: Academic Building" type="button"data-toggle="modal" data-target="#libraryModal"></img>
+					
+					<img id="buildingCPointer" class="launch-map modal-opener pointer img-responsive img" src="Images2/Pointer.svg" title="Building C: Basic and Clinical Sciences Building" type="button"data-toggle="modal" data-target="#buildingCModal"></img>
+					
+					<img id="buildingFPointer" class="pointer img-responsive img" src="Images2/Pointer.svg" title="Warren and Carol Low Student Union" type="button"data-toggle="modal" data-target="#buildingFModal"></img>
+					
+					<img id="ampPointer" class="pointer img-responsive img" src="Images2/Pointer.svg" title="Ernest A. Hutchinson Memorial Amphitheater" type="button"data-toggle="modal" data-target="#ampModal"></img>
+					
+					<img id="healthProfessionsPointer" class="pointer img-responsive img" src="Images2/Pointer.svg" title="Health Professions Building" type="button"data-toggle="modal" data-target="#healthProfessionsModal"></img>
+	
+					<img id="parkingLotPointer" class="pointer img-responsive img" src="Images2/Pointer.svg" title="Parking Structure" type="button"data-toggle="modal" data-target="#parkingLotModal"></img>
+				
+					<img id="TVCIPointer" class="pointer img-responsive img" src="Images2/Pointer.svg" title="TVCI" type="button"data-toggle="modal" data-target="#TVCIModal"></img>
+
+					<img id="adminPointer" class="pointer img-responsive img" src="Images2/Pointer.svg" title="Administration Offices and Student Achievement Center" type="button"data-toggle="modal" data-target="#adminModal"></img>
+
+					<img id="PAPointer" class="pointer img-responsive img" src="Images2/Pointer.svg" title="Physician Assistant Studies Room" type="button"data-toggle="modal" data-target="#PAModal"></img>
+
+					<img id="simPointer" class="pointer img-responsive img" src="Images2/Pointer.svg" title="Joseph F. Taylor, OD Simulation Lab" type="button"data-toggle="modal" data-target="#simModal"></img>
+
+					<img id="gymPointer" class="pointer img-responsive img" src="Images2/Pointer.svg" title="Gym" type="button"data-toggle="modal" data-target="#gymModal"></img>
+
+				</div>
+			<div class="col-lg-0"></div>
+		</div>
+
+
+
+<!--MODAL COMMONS=============================================================================-->
+
+
+		<div class="modal fade modal-fullscreen force-fullscreen" id="commonsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">Patricia Hopping Commons</h4>
+					</div>
+					<div class="modal-body">
+						<div id="commonsCarousel" class="carousel slide carousel-fit" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#commonsCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#commonsCarousel" data-slide-to="1"></li>
+								<li data-target="#commonsCarousel" data-slide-to="2"></li>
+								<li data-target="#commonsCarousel" data-slide-to="3"></li>
+								<li data-target="#commonsCarousel" data-slide-to="4"></li>
+								<li data-target="#commonsCarousel" data-slide-to="5"></li>
+								<li data-target="#commonsCarousel" data-slide-to="6"></li>
+							</ol>
+
+					<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<!--<div id="commonsPano"></div>-->
+									
+									<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1485389699866!6m8!1m7!1sF%3A-gRQ7y3_HWWg%2FWECvu0nlwlI%2FAAAAAAAAACs%2FPyqHUZV6ZxsBZa7RwGFTVg9cxrY8ZHjIQCLIB!2m2!1d33.8902148!2d-117.8865184!3f1!4f-2!5f0.7820865974627469" width="875" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+							
+								</div>
+								<div class="item">
+									<img src="Images2/commons3.jpg" alt="Second slide">
+								</div>
+								<div class="item">
+									<img src="Images2/commons4.jpg" alt="Fourth slide">
+								</div>
+								<div class="item">
+									<img src="Images2/commons5.jpg" alt="Fifth slide">
+								</div>
+								<div class="item">
+									<img src="Images2/commons8.jpg" alt="Sixth slide">
+								</div>
+								<div class="item">
+									<img src="Images2/commons6.jpg" alt="Seventh slide">
+								</div>
+								<div class="item">
+									<img src="Images2/commons7.jpg" alt="Seventh slide">
+								</div>
+							</div>
+
+							<!-- Controls -->
+							<a class="left carousel-control" href="#commonsCarousel" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#commonsCarousel" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<p class="paraLeft">The Patricia Hopping Commons is a popular gathering ground for formal events such as back-to-school BBQs, alumni reunions and commencement receptions, but is more often used by students playing Frisbee in between classes or studying while enjoying the Southern California sunshine year around.</p>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
+
+<!--MODAL LIBRARY=============================================================================-->
+
+
+		<div class="modal fade modal-fullscreen force-fullscreen" id="libraryModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">Building A: Academic Building</h4>
+					</div>
+					<div class="modal-body">
+						<div id="libraryCarousel" class="carousel slide carousel-fit" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#libraryCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#libraryCarousel" data-slide-to="1"></li>
+								<li data-target="#libraryCarousel" data-slide-to="2"></li>
+								<li data-target="#libraryCarousel" data-slide-to="3"></li>
+								<li data-target="#libraryCarousel" data-slide-to="4"></li>
+								<li data-target="#libraryCarousel" data-slide-to="5"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+								  <!-- <div id="libraryPano"></div> -->
+									<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1485389601094!6m8!1m7!1sF%3A-djHiCDkXBGs%2FWIEQQOQsmII%2FAAAAAAAAAEY%2FDdm1Q0cpavscDOOxLjTok50V3Akco3ztgCLIB!2m2!1d33.8909668!2d-117.8872085!3f187!4f0!5f0.7820865974627469" width="875" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+								</div>
+								<div class="item">
+									<img src="Images2/library4.jpg" alt="First slide">
+								</div>
+								<div class="item">
+									<img src="Images2/library2.jpg" alt="Third slide">
+								</div>
+								<div class="item">
+									<img src="Images2/library3.jpg" alt="Third slide">
+								</div>
+								<div class="item">
+									<img src="Images2/library1.jpg" alt="Third slide">
+								</div>
+								<div class="item">
+									<img src="Images2/computer.jpg" alt="Third slide">
+								</div>
+							</div>
+
+							<!-- Controls -->
+							<a class="left carousel-control" href="#libraryCarousel" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#libraryCarousel" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<p class="paraLeft">The Richard L. Hopping Academic Center at the Fullerton campus is the hub of academic achievement at MBKU. Theater-style classrooms and lecture capture systems provide students with an ideal environment for academic success. The library is on the second floor of the building, surrounded by group study rooms, a computer lab, and gorgeous views of a shaded creek outside floor-to-ceiling windows. </p>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
+
+		<!--MODAL BUILDING C=============================================================================-->
+
+		<div class="modal fade modal-fullscreen force-fullscreen" id="buildingCModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">Building C: Basic and Clinical Sciences Building</h4>
+					</div>
+					<div class="modal-body">
+						<div id="buildingCCarousel" class="carousel slide carousel-fit" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#buildingCCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#buildingCCarousel" data-slide-to="1"></li>
+								<li data-target="#buildingCCarousel" data-slide-to="2"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+								  <img src="Images2/buildingC7.jpg" alt="First slide">
+								</div>
+								<div class="item">
+								  <img src="Images2/buildingC6.jpg" alt="Second slide">
+								</div>
+								<div class="item">
+									<img src="Images2/buildingC8.jpg" alt="Third slide">
+								</div>
+							</div>
+
+							<!-- Controls -->
+							<a class="left carousel-control" href="#buildingCCarousel" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#buildingCCarousel" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<p class="paraLeft">In addition to the Taylor Simulation Lab and the Physician Assistant Studies Room, Building C houses pre-clinic labs, cornea contact lens labs, and anatomy labs for optometry students and faculty offices for convenient access for students.</p>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
+
+
+		<!--MODAL PA=============================================================================-->
+
+		<div class="modal fade modal-fullscreen force-fullscreen" id="PAModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">Physician Assistant Studies Room</h4>
+					</div>
+					<div class="modal-body">
+						<div id="PACarousel" class="carousel slide carousel-fit" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#PACarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#PACarousel" data-slide-to="1"></li>
+								<li data-target="#PACarousel" data-slide-to="2"></li>
+								<li data-target="#PACarousel" data-slide-to="2"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+								  <img src="Images2/buildingC1.jpg" alt="First slide">
+								</div>
+								<div class="item">
+								  <img src="Images2/pa1.jpg" alt="Second slide">
+								</div>
+								<div class="item">
+								  <img src="Images2/pa2.jpg" alt="Second slide">
+								</div>
+								<div class="item">
+									<img src="Images2/buildingC3.jpg" alt="Third slide">
+								</div>
+							</div>
+
+							<!-- Controls -->
+							<a class="left carousel-control" href="#PACarousel" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#PACarousel" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<p class="paraLeft">In 2016 MBKU graduated its first class of PA students who achieved a 100% pass rate on their national boards! This is no doubt the devoted professors, state-of-the-art anatomy simulation technology and simulated patient testing encourages repetition with patient cases, enhancing student confidence and ultimately patient safety.</p>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
+
+
+
+		<!--MODAL SIM=============================================================================-->
+
+		<div class="modal fade modal-fullscreen force-fullscreen" id="simModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">Joseph F. Taylor, OD Simulation Lab</h4>
+					</div>
+					<div class="modal-body">
+						<div id="simCarousel" class="carousel slide carousel-fit" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#simCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#simCarousel" data-slide-to="1"></li>
+								<li data-target="#simCarousel" data-slide-to="2"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+								  <img src="Images2/buildingC2.jpg" alt="First slide">
+								</div>
+								<div class="item">
+								  <img src="Images2/sim1.jpg" alt="Second slide">
+								</div>
+								<div class="item">
+									<img src="Images2/sim2.jpg" alt="Third slide">
+								</div>
+							</div>
+
+							<!-- Controls -->
+							<a class="left carousel-control" href="#simCarousel" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#simCarousel" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<p class="paraLeft">The Joseph F. Taylor Simulation Lab is a suite of indirect and direct ophthalmoscopy VR magic virtual reality simulators. With this technology, students have the opportunity to develop their skills and confidence through training with lifelike simulation.</p>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
+
+
+
+		<!--MODAL BUILDING F STUDENT CENTER===========================================================-->
+
+		<div class="modal fade modal-fullscreen force-fullscreen" id="buildingFModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">Warren and Carol Low Student Union</h4>
+					</div>
+					<div class="modal-body">
+						<div id="buildingFCarousel" class="carousel slide carousel-fit" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#buildingFCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#buildingFCarousel" data-slide-to="1"></li>
+								<li data-target="#buildingFCarousel" data-slide-to="2"></li>
+								<li data-target="#buildingFCarousel" data-slide-to="3"></li>
+								<li data-target="#buildingFCarousel" data-slide-to="4"></li>
+								<li data-target="#buildingFCarousel" data-slide-to="5"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="Images2/studentCenter3.jpg" alt="Second slide">
+								</div>
+								<div class="item">
+									<img src="Images2/studentCenter5.jpg" alt="Third slide">
+								</div>
+								<div class="item">
+									<img src="Images2/studentCenter1.jpg" alt="Fourth slide">
+								</div>
+								<div class="item">
+									<img src="Images2/studentCenter6.jpg" alt="Fourth slide">
+								</div>
+								<div class="item">
+									<img src="Images2/studentCenter7.jpg" alt="Fourth slide">
+								</div>
+								<div class="item">
+									<!-- <div id="loungePano"></div>  -->
+									<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1485389953793!6m8!1m7!1sF%3A-EKlCSMUjp2s%2FWHf6uyK-E4I%2FAAAAAAAAAD0%2FpGRnrMXaTe0adXipB_HDEjP9Ls6uxbbNwCLIB!2m2!1d33.8897262!2d-117.8865824!3f7!4f0!5f0.7820865974627469" width="875" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+								</div>
+							</div>
+
+							<!-- Controls -->
+							<a class="left carousel-control" href="#buildingFCarousel" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#buildingFCarousel" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<p class="paraLeft">The Warren and Carol Low Student Union building is the hub for student life activities, including club meetings, guest speakers, networking mixers, game nights, CPR and self-defense classes, and more. </p>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
+
+
+	<!--MODAL TVCI===========================================================-->
+
+		<div class="modal fade modal-fullscreen force-fullscreen" id="TVCIModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">TVCI</h4>
+					</div>
+					<div class="modal-body">
+						<div id="TVCICarousel" class="carousel slide carousel-fit" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#TVCICarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#TVCICarousel" data-slide-to="1"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="Images2/TVCI.jpg" alt="First slide">
+								</div>
+								<div class="item">
+									<img src="Images2/tvci2.jpg" alt="Second slide">
+								</div>
+							</div>
+
+							<!-- Controls -->
+							<a class="left carousel-control" href="#TVCICarousel" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#TVCICarousel" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<p class="paraLeft">The Vision Care Institute (TVCI) is the campus executive board room and conference center which employs projection and communication technology to conference with our educational partners around the world. The modern technology encourages communication as far as Japan and South Korea, where Ketchum University is expanding the scope of international optometric practice with two independent programs of higher learning.</p>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
+
+
+
+	<!--MODAL Administration Offices and Student Achievement Center =====================================-->
+
+		<div class="modal fade modal-fullscreen force-fullscreen" id="adminModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">Administration Offices and Student Achievement Center </h4>
+					</div>
+					<div class="modal-body">
+						<div id="adminCarousel" class="carousel slide carousel-fit" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#adminCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#adminCarousel" data-slide-to="1"></li>
+								<li data-target="#adminCarousel" data-slide-to="1"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item">
+									<img src="Images2/achievementCenter2.jpg" alt="Second slide">
+								</div>
+								<div class="item">
+									<img src="Images2/achievementCenter1.jpg" alt="Second slide">
+								</div>
+								<div class="item active">
+									<img src="Images2/admin1.jpg" alt="First slide">
+								</div>
+							</div>
+
+							<!-- Controls -->
+							<a class="left carousel-control" href="#adminCarousel" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#adminCarousel" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<p class="paraLeft">The Student Achievement Center offers a library of personal support resources for MBKU students. Whether looking for advice on financial wellness or mental wellbeing, students are welcome to stop by and pick up a brochure, develop learning skills beyond the classroom, or meet with Peer Advisors.</p>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
+
+
+
+		<!--MODAL AMP===========================================================-->
+
+		<div class="modal fade modal-fullscreen force-fullscreen" id="ampModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">Ernest A. Hutchinson Memorial Amphitheater</h4>
+					</div>
+					<div class="modal-body">
+						<div id="ampCarousel" class="carousel slide carousel-fit" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#ampCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#ampCarousel" data-slide-to="1"></li>
+								<li data-target="#ampCarousel" data-slide-to="2"></li>
+								<li data-target="#ampCarousel" data-slide-to="3"></li>
+								<li data-target="#ampCarousel" data-slide-to="4"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="Images2/amp2.jpg" alt="First slide">
+								</div>
+								<div class="item">
+									<img src="Images2/amp3.jpg" alt="Second slide">
+								</div>
+								<div class="item">
+									<img src="Images2/amp5.jpg" alt="Third slide">
+								</div>
+								<div class="item">
+									<img src="Images2/amp7.jpg" alt="Third slide">
+								</div>
+								<div class="item">
+									<img src="Images2/amp6.jpg" alt="Third slide">
+								</div>
+							</div>
+
+							<!-- Controls -->
+							<a class="left carousel-control" href="#ampCarousel" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#ampCarousel" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<p class="paraLeft">At the center of the campus stands the Ernest A. Hutchinson Memorial Amphitheater, for the annual student talent show, student bowl competition, White Coat ceremonies, and more.</p>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
+
+
+<!--MODAL HEALTH PROFESSIONS===========================================================-->
+
+		<div class="modal fade modal-fullscreen force-fullscreen" id="healthProfessionsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">Health Professions Building</h4>
+					</div>
+					<div class="modal-body">
+						<div id="healthProfessionsCarousel" class="carousel slide carousel-fit" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#healthProfessionsCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#healthProfessionsCarousel" data-slide-to="1"></li>
+								<li data-target="#healthProfessionsCarousel" data-slide-to="2"></li>
+								<li data-target="#healthProfessionsCarousel" data-slide-to="3"></li>
+								<li data-target="#healthProfessionsCarousel" data-slide-to="4"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="Images2/HealthProfessions1.jpg" alt="First slide">
+								</div>
+								<div class="item">
+									<img src="Images2/HealthProfessions3.jpg" alt="Second slide">
+								</div>
+								<div class="item">
+									<img src="Images2/healthProfessionsBP.jpg" alt="Third slide">
+								</div>
+								<div class="item">
+									<img src="Images2/blake1.jpg" alt="Third slide">
+								</div>
+								<div class="item">
+									<img src="Images2/blake2.jpg" alt="Third slide">
+								</div>
+							</div>
+
+							<!-- Controls -->
+							<a class="left carousel-control" href="#healthProfessionsCarousel" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#healthProfessionsCarousel" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<p class="paraLeft">The Health Professions Building will be a progressive academic environment for interprofessional education. Optometry, PA and Pharmacy students will learn together in both flipped and traditional classroom settings with access to virtual reality patient care simulation equipment, expanded practice exam rooms and shared social spaces like the new second floor student lounge projected to be completed by July 2017.</p>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
+
+<!--MODAL PARKING LOT===========================================================-->
+
+		<div class="modal fade modal-fullscreen force-fullscreen" id="parkingLotModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">Parking Structure</h4>
+					</div>
+					<div class="modal-body">
+						<div id="parkingLotCarousel" class="carousel slide carousel-fit" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#parkingLotCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#parkingLotCarousel" data-slide-to="1"></li>
+								<li data-target="#parkingLotCarousel" data-slide-to="2"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="Images2/parking1.jpg" alt="First slide">
+								</div>
+								<div class="item">
+									<img src="Images2/parking2.jpg" alt="Second slide">
+								</div>
+								<div class="item">
+									<img src="Images2/parking3.jpg" alt="Third slide">
+								</div>
+							</div>
+
+							<!-- Controls -->
+							<a class="left carousel-control" href="#parkingLotCarousel" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#parkingLotCarousel" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<p class="paraLeft">MBKU students are welcome to park on campus or at satellite parking lots with shuttles running every 10 minutes.</p>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
+
+
+<!--MODAL GYM===========================================================-->
+
+		<div class="modal fade modal-fullscreen force-fullscreen" id="gymModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">Fitness Center</h4>
+					</div>
+					<div class="modal-body">
+						<div id="gymCarousel" class="carousel slide carousel-fit" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#gymCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#gymCarousel" data-slide-to="1"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="Images2/fitness1.jpg" alt="First slide">
+								</div>
+								<div class="item">
+									<img src="Images2/fitness2.jpg" alt="Second slide">
+								</div>
+							</div>
+
+							<!-- Controls -->
+							<a class="left carousel-control" href="#gymCarousel" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#gymCarousel" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<p class="paraLeft">The fitness center is free for all students to use. A wide variety of free weights, machines, and cardio equipement will keep you fit.  Also be entertained while you work out by watching your favorite TV show on one of our fitness center big screens.</p>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
+
+
+<!--FOOTER=============================================================================-->
+
+		<ul class="botnav">
+			<li><a href="#news">Apply</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#about">Visit</a></li>
+			<li><a href="#about">Connect</a></li>
+		</ul>
+
+
+
+<!--SCRIPTS=============================================================================-->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script async defer
+					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBohwI5miGUNv7G8Rxsy138PW-2-qdpvG4&callback=initialize">	</script>
+		<script src="JS/map.js"></script>
+  
+  </body>
+</html>

@@ -1,0 +1,306 @@
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: helvetica;
+}
+
+
+/*=========NAVBAR=============================================================*/
+
+#logo {
+  color: #ac9663;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto; 
+
+}
+
+.header {
+  background: #3f1851;
+  display: flex;
+  height: 130px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mbkuLogo {
+  min-height: 40px;
+	max-height: 80px;
+}
+
+.kh2Long {
+  height: 100%;
+  width: 100%;
+}
+
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3f1851;
+}
+
+ul.topnav li {
+  float: left;
+  line-height: 40px;
+  }
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: 200;
+  vertical-align: middle;
+}
+
+ul.topnav li a:hover {background-color: #62285e;}
+
+ul.topnav li.icon {display: none;}
+
+.botnav {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 4%;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3f1851;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul.botnav li {
+  float: left;
+  line-height: 30px;
+  }
+
+ul.botnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 7px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: 200;
+  vertical-align: middle;
+}
+
+ul.botnav li a:hover {background-color: #62285e;}
+
+/* =========FADE IN AND MOVE POINTERS==========================*/
+
+/*.pointers {
+  opacity: 0;
+  top: 0%;
+  left: 0%;
+}*/
+
+/*=========CAMPUS MAP=============================================================*/
+
+.explainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.explainer > h4 {
+  font-weight: 100;
+  font-size: 1em;
+}
+
+#campusMap{
+  height: 90%;
+	width: 90%;
+	padding-right: 0;
+  padding-top: 0;
+  margin-bottom: 2%;
+}
+
+/*.walkwaySunrise{
+	height: 100%;
+	width: 100%;
+} */
+
+.paraLeft {
+	float: left;
+  text-align: left;
+}
+
+#map-canvas {
+  min-height: 250px !important;
+  min-width:100%;
+}
+
+.pointer{
+  height: 10%;
+  width: auto;
+}
+
+.pointer:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+/*img {
+  overflow: hidden;
+  height: auto;
+  max-width: 100%;
+}*/
+
+
+.pin {
+  position: relative;
+}
+
+#commonsPointer {
+  position: absolute;
+  top: 50%;
+  left: 29%;
+  border: none;
+}
+
+#libraryPointer {
+  position: absolute;
+  top: 34%;
+  left: 15%;
+  border: none;
+}
+
+#buildingCPointer {
+  position: absolute;
+  top: 18%;
+  left: 42%;
+  border: none;
+}
+
+#PAPointer {
+  position: absolute;
+  top: 24%;
+  left: 39%;
+  border: none;
+}
+
+#simPointer {
+  position: absolute;
+  top: 31%;
+  left: 36%;
+  border: none;
+}
+
+#buildingFPointer {
+  position: absolute;
+  top: 52%;
+  left: 42%;
+  border: none;
+}
+
+#ampPointer {
+  position: absolute;
+  top: 34%;
+  left: 54%;
+  border: none;
+}
+
+#healthProfessionsPointer {
+  position: absolute;
+  top: 38%;
+  left: 66%;
+  border: none;
+}
+
+#parkingLotPointer {
+  position: absolute;
+  top: 18%;
+  left: 26%;
+  border: none;
+}
+
+#gymPointer {
+  position: absolute;
+  top: 31%;
+  left: 23%;
+  border: none;
+}
+
+#TVCIPointer {
+  position: absolute;
+  top: 21%;
+  left: 48.3%;
+  border: none;
+}
+
+#adminPointer {
+  position: absolute;
+  top: 21%;
+  left: 53.5%;
+  border: none;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+
+
+
+/*=========MEDIA QUERIES=============================================================*/
+
+
+
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+
+/* GOOGLE MAPS===================Always set the map height explicitly to define the size of the div element that contains the map. */
+
+#commonsPano{
+  height: 500px;
+  width: 900px;
+}
+  #loungePano{
+  height: 500px;
+  width: 900px;
+}
+  #khLobbyPano{
+  height: 500px;
+  width: 900px;
+}
+  #libraryPano{
+  height: 500px;
+  width: 600px;
+}
